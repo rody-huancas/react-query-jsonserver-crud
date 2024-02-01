@@ -13,3 +13,6 @@ export const createProduct = async (product) =>
   productApi.post("/products", product);
 
 export const deleteProduct = (id) => productApi.delete(`/products/${id}`);
+
+export const updateProduct = (product) =>
+  productApi.put(`/products/${product.id}`, product);
