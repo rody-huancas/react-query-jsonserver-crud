@@ -7,11 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "back": "json-server --watch db/products.json --port 3030"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.18.0",
     "@tanstack/react-query-devtools": "^5.18.0",
+    "json-server": "^1.0.0-alpha.23",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

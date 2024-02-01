@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "laptop",
+      "description": "laptop gaming",
+      "price": 1000,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "smartphone",
+      "description": "high-end smartphone",
+      "price": 800,
+      "inStock": false
+    },
+    {
+      "id": 3,
+      "name": "headphones",
+      "description": "noise-canceling headphones",
+      "price": 150,
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "smartwatch",
+      "description": "fitness tracking smartwatch",
+      "price": 200,
+      "inStock": true
+    }
+  ]
+}
